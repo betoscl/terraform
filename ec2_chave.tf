@@ -16,7 +16,7 @@ provider "aws" {
     #secret_key = "SUA_SECRET_KEY"
   
 }
-
+#teste
 # Cria a chave SSH
 resource "aws_key_pair" "wsterraform" {
   key_name   = "wsterraform" # Nome da chave SSH que será criada na AWS

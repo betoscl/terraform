@@ -29,7 +29,6 @@ resource "aws_instance" "webserver" {
   ami           = "ami-04a0ae173da5807d3" # ID da imagem AMI desejada
   instance_type = "t2.micro" # Instância desejada
   key_name      = "wsterraform" # Nome da chave SSH existente. Neste  caso, a chave que foi criada no bloco anterior
-
   tags = {
     Name = "Exemplo de instância EC2"
   }
